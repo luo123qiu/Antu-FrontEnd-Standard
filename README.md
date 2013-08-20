@@ -31,16 +31,16 @@
 		* `css`,`jQuery`及`Google Analytics`引用置于文档头部
 		  `<head>  
 		  ……  
-		  <link href="style.css" rel="stylesheet" />
+		  <link href="style.css" rel="stylesheet" />  
 		  <script src="/jquery-1.9.1.min.js"></script>  
 		  //放置Google Analytics代码  
 		  </head>`
 		* 其它js及统计代码置于文档底部
-		  `<body>
+		  `<body>  
 		  ……  
 		  <script src="script.js"></script>`
 		  //其他JS代码  
-		  `&lt;/body&gt;`
+		  `</body>`
 		* css, js调用不添加`type="xxx"`
 		* 特殊符号使用参考 [HTML ISO-8859-1 参考手册](http://www.w3school.com.cn/tags/html_ref_entities.html)
 	* JS
@@ -48,7 +48,7 @@
 		* 建议：jQuery变量首字符为`$`，私有变量首字符为`_`
 		* 所有语句结束后必须使用`;`结束
 		* 当需要通过JS来改变样式时，通过改变class名来完成，而不是直接设置元素style的值
-		  `参考文献：[回流与重绘：css性能让javascript变慢？](http://www.zhangxinxu.com/wordpress/?p=600)  
-		  英文原文：[Reflows & Repaints: CSS Performance making your JavaScript slow?](http://www.stubbornella.org/content/2009/03/27/reflows-repaints-css-performance-making-your-javascript-slow/)`
+		  参考文献：[回流与重绘：css性能让javascript变慢？](http://www.zhangxinxu.com/wordpress/?p=600)  
+		  英文原文：[Reflows & Repaints: CSS Performance making your JavaScript slow?](http://www.stubbornella.org/content/2009/03/27/reflows-repaints-css-performance-making-your-javascript-slow/)
 		* JS调试使用`console.log()`进行，避免使用弹出框，线上版本需要注释所有调试代码
 		* 编写更高效的jQuery代码：[jQuery最佳实践](http://www.ruanyifeng.com/blog/2011/08/jquery_best_practices.html)
