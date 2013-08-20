@@ -28,7 +28,7 @@
 		* 统一标签结尾斜杠的书写形式：`<br />`, `<hr />` 注意空格
 		* 避免使用过时的标签，如`<b>`, `<i>`而使用`<strong>`, `<em>`代替
 		* 避免使用`style="xxx:xxx"`的内联样式表
-		* `css`,`jQuery`及`Google Analytics`引用置于文档头部
+		* `css`,`jQuery`及`Google Analytics`引用置于文档头部  
 		  `<head>`  
 		  `……`  
 		  `<link href="style.css" rel="stylesheet" />`  
