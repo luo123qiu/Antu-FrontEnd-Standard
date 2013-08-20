@@ -13,12 +13,12 @@
 		* id使用`_`作为命名连接符，如：`site_wrapper`, `site_footer`
 		* 所有CSS代码全部使用小写
 		* 尽量避免类似`margin-23`，`padding-17`这样无意义且无法复用的命名
-		* 使用统一`CSS Reset`
+		* 使用统一[CSS Reset](https://github.com/luo123qiu/Antu-FrontEnd-Standard/blob/master/reset.css)
 		* `CSS Hack`
 		* 使用`:after`或`overflow`清除浮动，不要在html里增加多余的标签
 		* 避免使用低效的选择器，参考文献：[高效地呈现CSS](http://www.lizhenwen.com/w3c/1034)
 	* HTML
-		* 使用`HTML5`标准格式编写HTML代码
+		* 使用[HTML5](https://github.com/luo123qiu/Antu-FrontEnd-Standard/blob/master/html5.html)标准格式编写HTML代码  
 		* 调用本地公共库或使用 [百度](http://developer.baidu.com/wiki/index.php?title=docs/cplat/libs) / [新浪](http://lib.sinaapp.com/) / [又拍](http://jscdn.upai.com/) 提供的CDN公共库
 		* 框架级DOM使用`id`作为标记，其余全部使用`class`
 		* 所有代码全部使用小写，DOM属性值使用双引号包裹
