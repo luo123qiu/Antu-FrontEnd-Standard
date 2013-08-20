@@ -1,12 +1,12 @@
 # 安途前端规范
-1. ### 说明
+1. 说明
 	* 建立此文档旨在统一安途前端编码规范和风格，让所有代码都是有规可循的，并且能够得到沉淀，减少重复劳动。
 	* 团队内所有人均可参与文档建设与维护
 	* 此文档使用`Markdown`编写，[Markdown语法说明](http://wowubuntu.com/	markdown/)  
 	> `Windows` [MarkdownPad](http://markdownpad.com/)、[MarkPad](http://code52.org/DownmarkerWPF/)  
 	  `Mac` [Mou](http://mouapp.com/)  
 	  `Linux` [ReText](http://sourceforge.net/p/retext/home/ReText/)
-1. ### 开发规范
+1. 开发规范
 	* CSS
 		* 使用[LESS](http://lesscss.net/)编写生产环境CSS代码
 		* class使用`-`作为命名连接符，如：`.site-title`, `main-menu`
