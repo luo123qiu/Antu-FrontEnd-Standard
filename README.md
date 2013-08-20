@@ -3,7 +3,7 @@
 	* 建立此文档旨在统一安途前端编码规范和风格，让所有代码都是有规可循的，并且能够得到沉淀，减少重复劳动。
 	* 团队内所有人均可参与文档建设与维护
 	* 此文档使用`Markdown`编写，[Markdown语法说明](http://wowubuntu.com/	markdown/)  
-	`Windows` [MarkdownPad](http://markdownpad.com/)、[MarkPad](http://code52.org/DownmarkerWPF/)  
+	  `Windows` [MarkdownPad](http://markdownpad.com/)、[MarkPad](http://code52.org/DownmarkerWPF/)  
 	  `Mac` [Mou](http://mouapp.com/)  
 	  `Linux` [ReText](http://sourceforge.net/p/retext/home/ReText/)
 1. 开发规范
@@ -29,17 +29,17 @@
 		* 避免使用过时的标签，如`<b>`, `<i>`而使用`<strong>`, `<em>`代替
 		* 避免使用`style="xxx:xxx"`的内联样式表
 		* `css`,`jQuery`及`Google Analytics`引用置于文档头部
-		  `<head>  
-		  ……  
-		  <link href="style.css" rel="stylesheet" />  
-		  <script src="/jquery-1.9.1.min.js"></script>  
-		  //放置Google Analytics代码  
-		  </head>`
+		  `<head>`  
+		  `……`
+		  `<link href="style.css" rel="stylesheet" />`  
+		  `<script src="/jquery-1.9.1.min.js"></script>`  
+		  `//放置Google Analytics代码`  
+		  `</head>`
 		* 其它js及统计代码置于文档底部
-		  `<body>  
-		  ……  
-		  <script src="script.js"></script>`
-		  //其他JS代码  
+		  `<body>`  
+		  `……`  
+		  `<script src="script.js"></script>`
+		  `//其他JS代码`  
 		  `</body>`
 		* css, js调用不添加`type="xxx"`
 		* 特殊符号使用参考 [HTML ISO-8859-1 参考手册](http://www.w3school.com.cn/tags/html_ref_entities.html)
@@ -47,7 +47,7 @@
 		* 不在HTML文档中直接编写Javascript代码
 		* 建议：jQuery变量首字符为`$`，私有变量首字符为`_`
 		* 所有语句结束后必须使用`;`结束
-		* 当需要通过JS来改变样式时，通过改变class名来完成，而不是直接设置元素style的值
+		* 当需要通过JS来改变样式时，通过改变class名来完成，而不是直接设置元素style的值  
 		  参考文献：[回流与重绘：css性能让javascript变慢？](http://www.zhangxinxu.com/wordpress/?p=600)  
 		  英文原文：[Reflows & Repaints: CSS Performance making your JavaScript slow?](http://www.stubbornella.org/content/2009/03/27/reflows-repaints-css-performance-making-your-javascript-slow/)
 		* JS调试使用`console.log()`进行，避免使用弹出框，线上版本需要注释所有调试代码
