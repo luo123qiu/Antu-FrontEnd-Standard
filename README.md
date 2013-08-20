@@ -29,18 +29,18 @@
 		* 避免使用过时的标签，如`<b>`, `<i>`而使用`<strong>`, `<em>`代替
 		* 避免使用`style="xxx:xxx"`的内联样式表
 		* `css`,`jQuery`及`Google Analytics`引用置于文档头部
-		> &lt;head&gt;  
+		  `&lt;head&gt;  
 		  ……  
 		  &lt;link href="style.css" rel="stylesheet" /&gt;  
 		  &lt;script src="/jquery-1.9.1.min.js"&gt;&lt;/script&gt;  
 		  //放置Google Analytics代码  
-		  &lt;/head&gt;
+		  &lt;/head&gt;`
 		* 其它js及统计代码置于文档底部
-		> &lt;body&gt;  
+		  `&lt;body&gt;  
 		  ……  
-		  &lt;script src="script.js"&gt;&lt;/script&gt;  
+		  &lt;script src="script.js"&gt;&lt;/script&gt;`
 		  //其他JS代码  
-		  &lt;/body&gt;
+		  `&lt;/body&gt;`
 		* css, js调用不添加`type="xxx"`
 		* 特殊符号使用参考 [HTML ISO-8859-1 参考手册](http://www.w3school.com.cn/tags/html_ref_entities.html)
 	* JS
