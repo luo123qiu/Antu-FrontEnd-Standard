@@ -30,15 +30,15 @@
 		* 避免使用`style="xxx:xxx"`的内联样式表
 		* `css`,`jQuery`及`Google Analytics`引用置于文档头部
 		  `<head>`  
-		  `……`
+		  `……`  
 		  `<link href="style.css" rel="stylesheet" />`  
 		  `<script src="/jquery-1.9.1.min.js"></script>`  
 		  `//放置Google Analytics代码`  
 		  `</head>`
-		* 其它js及统计代码置于文档底部
+		* 其它js及统计代码置于文档底部  
 		  `<body>`  
 		  `……`  
-		  `<script src="script.js"></script>`
+		  `<script src="script.js"></script>`  
 		  `//其他JS代码`  
 		  `</body>`
 		* css, js调用不添加`type="xxx"`
